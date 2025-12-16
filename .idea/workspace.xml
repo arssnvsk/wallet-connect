@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f6a85e9-3031-4d53-83bb-6bf19ec41b29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connect/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connect/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connect/ui/WalletConnect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connect/ui/WalletOptions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connect/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/model/useTokenBalance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/model/useWalletConnection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/model/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/ui/Balance.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/ui/WalletConnection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/wallet-connection/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/http-client/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/ui-kit/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/ui-kit/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/ui-kit/ui/copy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/ui-kit/ui/toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/wallet/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/wallet/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shared/wallet/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="36v6JXFUzVHtrOkVzRrqXk1Gm8W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/artem/webstorm/artem/web3-playground/app/shared/ui-kit/ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "npm.lint.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/artem/webstorm/artem/web3-playground/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/shared/ui-kit/ui" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.lint">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f6a85e9-3031-4d53-83bb-6bf19ec41b29" name="Changes" comment="" />
+      <created>1765874626442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765874626442</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
