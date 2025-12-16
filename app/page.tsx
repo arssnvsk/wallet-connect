@@ -8,8 +8,6 @@ import { Spinner } from "@/shared/ui-kit/ui/spinner";
 export default function Home() {
     const { status } = useConnection()
 
-    console.log(status)
-
   return (
     <div className="min-h-screen">
       <div className="p-2">

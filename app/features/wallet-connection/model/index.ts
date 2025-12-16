@@ -1,3 +1,4 @@
 export { getFormattedBalance } from './utils'
-export { useWalletConnection } from './useWalletConnection'
+export { useWalletState } from './useWalletState'
 export { useTokenBalance } from './useTokenBalance'
+export { useWalletBalances } from './useWalletBalances'

@@ -2,7 +2,7 @@
 
 import { Button } from "@/shared/ui-kit/ui/button";
 import { Copy } from "@/shared/ui-kit/ui/copy";
-import { useWalletConnection } from "../model";
+import { useWalletBalances, useWalletState } from "../model";
 import { Toggle, useToggle } from "@/shared/ui-kit/ui/toggle";
 import { Balance } from "./Balance";
 import { Skeleton } from "@/shared/ui-kit/ui/skeleton";
@@ -13,13 +13,11 @@ export function WalletConnection() {
         ensAvatar,
         status,
         disconnect,
-        pyusdBalance,
-        balance,
         ensName,
         address,
-        balanceStatus,
         disconnectStatus
-    } = useWalletConnection()
+    } = useWalletState()
+    const { balance, balanceStatus, pyusdBalance } = useWalletBalances()
 
     return (
       <div className="flex justify-between items-center gap-4">
