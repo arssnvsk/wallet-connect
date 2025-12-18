@@ -1,6 +1,6 @@
 'use client'
 
-import { WallerProvider } from "@/shared/wallet";
+import { StableContractProvider, PYUSD_CONTRACT_ADDRESS, WallerProvider } from "@/shared/wallet";
 import { FC, ReactNode } from "react";
 import { QueryProvider } from "@/shared/http-client";
 
@@ -15,7 +15,11 @@ export const Providers: FC<ProvidersProps> = (props) => {
     return (
       <WallerProvider>
         <QueryProvider>
-          {children}
+          <StableContractProvider
+              contractAddress={PYUSD_CONTRACT_ADDRESS}
+          >
+            {children}
+          </StableContractProvider>
         </QueryProvider>
       </WallerProvider>
     )

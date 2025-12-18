@@ -4,6 +4,8 @@ import { WagmiProvider } from 'wagmi'
 import { FC, ReactNode } from "react";
 
 export { PYUSD_CONTRACT_ADDRESS } from './constants'
+export { useTokenDecimals } from './useTokenDecimals'
+export { StableContractProvider, useStableContract } from './stable-contract'
 
 const config = createConfig({
     chains: [mainnet, sepolia],

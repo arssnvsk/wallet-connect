@@ -1,6 +1,6 @@
 import { useBalance, useConnection } from "wagmi";
 import { useTokenBalance } from "./useTokenBalance";
-import { PYUSD_CONTRACT_ADDRESS } from "@/shared/wallet";
+import { useStableContract } from "@/shared/wallet";
 
 export const useWalletBalances = () => {
     const { address, isConnected  } = useConnection()
@@ -11,11 +11,13 @@ export const useWalletBalances = () => {
         },
     })
 
-    const pyusdBalance = useTokenBalance(address, PYUSD_CONTRACT_ADDRESS)
+    const { contractAddress } = useStableContract()
+
+    const stableCoinBalance = useTokenBalance(address, contractAddress)
 
     return {
         balance,
-        pyusdBalance,
+        stableCoinBalance,
         balanceStatus,
     }
 }
