@@ -17,7 +17,7 @@ export function WalletConnection() {
         address,
         disconnectStatus
     } = useWalletState()
-    const { balance, balanceStatus, pyusdBalance } = useWalletBalances()
+    const { balance, balanceStatus, stableCoinBalance } = useWalletBalances()
 
     return (
       <div className="flex justify-between items-center gap-4">
@@ -29,7 +29,7 @@ export function WalletConnection() {
           {status !== 'connected' && <Skeleton className="h-4 w-[400px]" />}
           {balanceStatus === 'success' && <div className="flex items-center gap-2">
             {balance ? <Balance balance={balance} hidden={hiddenState.toggleValue} title="Balance"/>: null}
-            {pyusdBalance ? <Balance balance={pyusdBalance} hidden={hiddenState.toggleValue} title="Balance PYUSD"/>: null}
+            {stableCoinBalance ? <Balance balance={stableCoinBalance} hidden={hiddenState.toggleValue} title={`Balance ${stableCoinBalance.symbol}`}/>: null}
             <Toggle
                     value={hiddenState.toggleValue}
                     onToggleAction={hiddenState.onToggle}
